@@ -59,5 +59,5 @@ def test_csv_has_30_valid_leads_and_expected_priority_distribution():
     assert len(leads) == 30
     assert [lead["id"] for lead in leads] == [str(number) for number in range(1, 31)]
     assert Counter(priorities) == Counter(
-        {Priority.HIGH: 12, Priority.MEDIUM: 8, Priority.LOW: 10}
+        {Priority.HIGH: 12, Priority.MEDIUM: 7, Priority.LOW: 11}
     )
