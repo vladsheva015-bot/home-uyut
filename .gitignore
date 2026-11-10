@@ -1,0 +1,15 @@
+# Python / Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# IDE / PyCharm
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
